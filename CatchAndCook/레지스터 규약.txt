@@ -1,0 +1,38 @@
+
+
+// 4개
+s0 = 리니어
+s1 = 포인트
+s2 = 비등방 4x
+s3 = 비등방 8x
+s4 = 비등방 16x
+s5 = 그림자 샘플링
+
+// 16개
+t20 shadow_texture
+t21 opaque_texture
+t22 depth_texture
+
+// 지켜야할 이름 규칙
+diffuse_texture : _BaseMap
+normal_texture : _BumpMap
+specular_texture : _SpecGlossMap
+emissive_texture : _EmissionMap
+
+b12개
+//고정
+b0 = Glocal GameDatas (Time , value , windowSize ) 
+b1 = Transform 
+b2 = Camera
+b3 = MainLight
+b4 = MatrialParam
+
+//dynamcic System
+b5 = SpriteData
+b5 = SkinnedData
+b6 = 
+b7 = 
+
+
+
+#define SKINNED // 스킨드 활성화
